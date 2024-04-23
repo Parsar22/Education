@@ -8,10 +8,17 @@ This project utilizes two data sets [EdGap_data.xlsx](https://github.com/Parsar2
 
 Steps Undertaken:
 Initial Data Inspection: conducted an exploratory analysis to understand the datasets' structure and content.
+
 Data Cleaning: This included converting data types, handling out-of-range values, and removing unnecessary parts like duplicates.
+
 Merging Datasets: The EdGap dataset was merged with the school information dataset using school IDs to create a unified analysis base.
+
 Identifying Missing Values: We identified missing values across the merged dataset to strategize their imputation.
+
 Train-Test Split: The data was split into training and test sets to facilitate a clean imputation process and avoid data leakage.
+
 Data Imputation: Using the IterativeImputer, we imputed missing values separately in the training and test datasets.
+
 Feature Scaling: Post-imputation, we scaled the features to provide each with equal weight in the predictive modeling.
+
 Exporting Cleaned Data: The final cleaned and processed data were exported as CSV files for further use.
